@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body{
     margin: 0;
     padding: 0;
@@ -13,8 +17,7 @@ section{
 
 section a{
     text-decoration: none;
-    
-    
+
 }
 
 #start{
@@ -40,20 +43,19 @@ img {
     animation-name: movingarrows;
     animation-duration: 1s;
     animation-delay: 2s;
-    animation-iteration-count: 5;
-    scroll-behavior: smooth;
+    animation-iteration-count: infinite;
 
 }
 
 @keyframes movingarrows {
-    0%{ top: 6em;
-        opacity: 90%;
+    0%{ top: 4em;
+        opacity: 30%;
     }
     
-    50% { top: 7em;
-        opacity: 50%;
+    50% { top: 5em;
+        opacity: 70%;
     }
     
-    100% { top: 8em;
-        opacity: 90%;
+    100% { top: 6em;
+        opacity: 30%;
     }
