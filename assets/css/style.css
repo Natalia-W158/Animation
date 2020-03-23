@@ -37,5 +37,23 @@ img {
     position: relative;;
     right: 5em;
     top: 5em;
+    animation-name: movingarrows;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-iteration-count: 5;
+    scroll-behavior: smooth;
 
 }
+
+@keyframes movingarrows {
+    0%{ top: 6em;
+        opacity: 90%;
+    }
+    
+    50% { top: 7em;
+        opacity: 50%;
+    }
+    
+    100% { top: 8em;
+        opacity: 90%;
+    }
