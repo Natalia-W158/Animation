@@ -6,21 +6,36 @@ body{
 section{
     width: 100vw;
     height: 100vh;
-    display: inline-flex;
+    display: flex;
+    align-items: center;
+    
 }
 
 section a{
     text-decoration: none;
+    
+    
 }
 
 #start{
     background-color: palevioletred;
+    justify-content: center;
 }
 
 #one{
     background-color: palegoldenrod;
+    justify-content: center;
 }
 
 #end{
     background-color: palegreen;
+    justify-content: center;
+}
+
+
+img {
+    position: relative;;
+    right: 5em;
+    top: 5em;
+
 }
